@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+.about {
+    color:aquamarine;
+}
+
+.skills {
+    color:aqua;
+}
+
+.projects {
+    color:blue;
+}
+
+.contact {
+    color:darkcyan; 
+}
