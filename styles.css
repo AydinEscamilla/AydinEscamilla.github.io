@@ -57,3 +57,12 @@ a {
     text-align: center;
     margin: 15px;
 }
+
+.about img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgb(126,14,201);
+    display: block;
+    margin: auto;
+}
