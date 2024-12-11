@@ -5,52 +5,54 @@ body {
 }
 
 h1 {
-    color: white;
+    color: aquamarine;
     text-align: center;
 }
 
 h2 {
-    color: white;
+    color: aquamarine;
     text-align: center;
 }
 
-.about {
-    color:aquamarine;
-}
-
 .skills {
-    color:aqua;
+    color:aquamarine;
 }
 
 .projects {
     display:flex; flex-wrap:wrap;
-    color:cyan;
+    color:aquamarine;
 }
 
 .project {
     width: 30%;
     margin: 10px;
     padding: 20px 10px;
-    background: rgb(58, 78, 131);
+    background: black;
     border-radius: 25%;
 }
 
 .contact {
-    color:darkcyan; 
+    color:aquamarine; 
+    text-align: center;
 }
 
 .project img{
     width: 300px;
     height: 300px;
     margin: 10px;
-    border: 2px solid rgb(126,14,201);
+    border: 2px solid aquamarine;
     display: block;
     margin: auto;
 }
 
-a {
+.skills a {
     text-decoration: none;
-    color: purple;
+    color: aqua;
+}
+
+a {
+    text-decoration: underline;
+    color: aquamarine;
 }
 
 .project p {
@@ -58,11 +60,167 @@ a {
     margin: 15px;
 }
 
+.about-section {
+    text-align: center;
+    margin-bottom: 50px; /* Adds space between the header and the content */
+}
+
+.about-container {
+    text-align: center; /* Centers the heading */
+    margin-bottom: 50px; /* Adds space between the heading and the image-text block */
+
+}
+
+.about-container h2 {
+    color:aquamarine;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    color: aquamarine;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto; /* Centers the content block horizontally on the screen */
+    gap: 100px; /* Adds space between the image and the text */
+}
+
 .about img {
     width: 300px;
     height: 300px;
+    border: 2px solid aquamarine;
+    object-fit: cover;
+}
+
+.about-text {
+    text-align: left; /* Aligns the text for readability */
+    line-height: 1.6;
+}
+
+.skills p {
+    text-align: center;
+}
+
+.skills-section {
+    text-align: center; /* Center aligns the heading */
+    color: aquamarine;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.skills-section h2 {
+    color: aquamarine;
+    margin-bottom: 20px;
+}
+
+.skills-category {
+    color: aquamarine;
+    margin-bottom: 50px; /* Adds spacing between categories */
+    text-align: left; /* Aligns text for readability */
+}
+
+
+
+.skills-category h3 {
+    color: aquamarine; /* Highlights category headings */
+    margin-bottom: 10px;
+}
+
+.skills-category p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: aquamarine;
+}
+
+.skills-category a {
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+.project img {
+    width: 300px;
+    height: 300px;
     margin: 10px;
-    border: 2px solid rgb(126,14,201);
+    border: 2px solid aquamarine;
     display: block;
     margin: auto;
+}
+
+.contact-section {
+    text-align: center;
+    color: aquamarine;
+    margin: 20px auto; /* Centers and adds space above and below */
+    padding: 20px; /* Padding around the content */
+    max-width: 800px; /* Keeps the content narrow and readable */
+    position: relative; /* Default position to avoid being stuck */
+  }
+  
+  .contact-section h2 {
+    color: aquamarine;
+    margin-bottom: 20px; /* Space below heading */
+  }
+  
+  .contact-category {
+    color: aquamarine;
+    margin-bottom: 50px; /* Adds spacing between categories */
+    text-align: left; /* Aligns text for readability */
+  }
+  
+  .contact-category h3 {
+    color: aquamarine; /* Highlights category headings */
+    margin-bottom: 10px;
+  }
+  
+  .contact-category p {
+    font-size: 1rem;
+    line-height: 1.6; /* Improves readability */
+    color: aquamarine;
+  }
+  
+  .contact-category a {
+    color: aquamarine;
+    text-decoration: underline;
+  }
+  
+
+.projects {
+    display: grid;
+    grid-template-columns: 700px 700px 700px; /* 3 columns */
+    grid-auto-rows: 500px 500px; /* Automatically adjust the row height */
+    justify-content: center; /* Centers the grid horizontally */
+    gap: 80px; /* Adds spacing between grid items */
+    color: aquamarine;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.project {
+    text-align: center; /* Center the content inside each item */
+    margin-bottom: 50px;
+}
+
+.projects {
+    display: grid;
+    color: aquamarine;
+    grid-template-columns: 700px 700px 700px; /* Creates 3 columns with equal width */
+    grid-auto-rows: 500px 500px; /* Adjusts row height automatically */
+    gap: 80px; /* Space between items */
+    justify-items: center; /* Aligns items horizontally in their cells */
+    align-items: center; /* Aligns items vertically in their cells */
+    height: 100%; /* Full viewport height to allow vertical centering */
+    margin-bottom: 50px;
+}
+
+.project-center {
+    display: flex;
+    flex-direction: column; /* Keeps items stacked vertically */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    text-align: center;
+    height: 100%; /* Ensures flexbox works properly */
+    margin-bottom: 50px;
 }
